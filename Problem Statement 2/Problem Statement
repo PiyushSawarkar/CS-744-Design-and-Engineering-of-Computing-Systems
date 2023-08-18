@@ -1,0 +1,11 @@
+In this assignment, you will build a load generator and perform a load test on the web server developed by you in PA3. You are expected to write and submit the code for a load generator. You may also submit an updated version of the web server if you happened to fix any bugs and improve your web server from PA3.
+
+Detailed instructions on how to solve this assignment are here: https://github.com/cserl-iitb/bootcamp2022/tree/main/application_software/week5
+
+Please note that we ask you to run valgrind and fix errors first before running the load test, in order to avoid server crashes due to memory errors.
+
+Place your code in a folder whose name is your roll number, tar gzip it, and upload on Moodle.
+
+Deadline: Sunday Nov 6, 11:59 pm
+
+Please note that your load test setup should be reproducible during the demo, as we will ask you to reproduce some measurements from your load test during the demo. We will also ask you to run Valgrind and show a clean report of no bugs.
