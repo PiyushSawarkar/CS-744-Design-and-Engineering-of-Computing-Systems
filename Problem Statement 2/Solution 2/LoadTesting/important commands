@@ -1,0 +1,6 @@
+valgrind --tool=memcheck --leak-check=yes --show-leak-kinds=all --track-origins=yes --verbose ./server 8000
+taskset -c 4,5,6,7 ./load_gen localhost 8000 100 0.5 60
+python3 response_time-plot.py
+python3 throughput-plot.py
+ulimit -n 30000
+taskset -c 0 ./server 8000
